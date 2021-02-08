@@ -14,15 +14,15 @@
     }
     #header-inner{
         width: 100%;
-        min-height: 200px;
+        min-height: 60px;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
     #logo{
         font-family: Century Gothic;
-        font-size: 70px;
-        margin: 0 80px;
+        font-size: 20px;
+        margin: 0 25px;
         letter-spacing: 0.05em;
         color: #ebebeb;
     }
@@ -30,11 +30,11 @@
         color: #fff;
     }
     #side-links{
-        font-size: 55px;
-        margin: 0 60px;
+        font-size: 20px;
+        margin: 0 25px;
     }
     #side-links>a{
-        margin-left: 25px;
+        margin-left: 10px;
         color: #ebebeb;
     }
     #side-links>a:hover{
@@ -57,16 +57,17 @@
     }
     #first-block-inner{
         width: 100%;
-        min-height: 1518px;
+        min-height: 450px;
         padding: auto;
         display: flex;
         flex-direction: column;
         /*justify-content: flex-start;*/
     }
+
     #first-block-text-block{
-        width: 813px;
+        /*width: 813px;*/
         /*height: 221px;*/
-        margin: 55px 0 0 80px;
+        margin: 10px 25px 0 25px;
         font-family: Inter;
         letter-spacing: 0.05em;
         /*display: flex;*/
@@ -74,19 +75,18 @@
     }
     #first-block-text-block-headline{
         font-weight: 300;
-        font-size: 60px;
-
+        font-size: 18px;
     }
     #first-block-text-block-text{
-        font-weight: 200;
-        line-height: 70px;
-        font-size: 45px;
+        font-weight: 100;
+        line-height: 20px;
+        font-size: 14px;
     }
     #first-block-text-block-leave-request{
-        width: 455px;
-        height: 77px;
+        width: 136px;
+        height: 24px;
         font-family: Inter;
-        font-size: 35px;
+        font-size: 11px;
         line-height: 42px;
         font-weight: 300;
         display: flex;
@@ -95,6 +95,7 @@
         letter-spacing: 0.05em;
         background: #050505;
         border-radius: 4px;
+        margin: auto;
     }
     #first-block-text-block-leave-request:hover{
         animation: changelink .3s;
@@ -112,13 +113,15 @@
         }
     }
     #first-block-image-block{
-        width: 165px;
-        height: 330px;
+        width: 42px;
+        height: 100px;
         margin: auto;
-        background-image: url(../dbfb15e1c537755aafd115dbf575cab5.jpg);
+        background-image: url(../Mask_Group.png);
         background-size: cover;
     }
-    /*
+
+
+
     #second-block{
         width: 100%;
         background: #000;
@@ -126,26 +129,30 @@
         justify-content: center;
     }
     #second-block-inner{
-        min-height: 416px;
-        min-width: 1280px;
+        min-height: 206px;
+        /*min-width: 1280px;*/
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     #second-block-headline{
         font-family: Inter;
-        font-size: 25px;
+        font-size: 10px;
         line-height: 60px;
         letter-spacing: 0.05em;
         font-weight: 300;
-        margin: 54px 0 0 0;
+        margin: 14px 0 0 0;
         height: 60px;
     }
+    #second-block-vector{
+        width: 262px;
+        /*height: 109px;*/
+    }
     #second-block-pics{
-        margin: 26px 0 0 0;
+        margin: 0;
     }
     #second-block-texts{
-        width: 86%;
+        /*width: 86%;*/
         display: flex;
         justify-content: space-around;
         text-align: center;
@@ -156,7 +163,7 @@
     }
     #second-block-texts>p{
         color: rgba(255,255,255,0.8);
-
+        font-size: 10px;
     }
 
 
@@ -168,8 +175,8 @@
         background-size: cover;
     }
     #third-block-inner{
-        min-width: 1280px;
-        min-height: 416px;
+        /*min-width: 1280px;*/
+        min-height: 180px;
         display: flex;
         justify-content: space-between;
     }
