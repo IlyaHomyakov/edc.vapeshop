@@ -25,6 +25,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/GitHubDesktop.exe" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -55,6 +56,7 @@
       <workItem from="1612700694984" duration="432000" />
       <workItem from="1612701163466" duration="2868000" />
       <workItem from="1612719948284" duration="2165000" />
+      <workItem from="1612776196493" duration="1526000" />
     </task>
     <servers />
   </component>

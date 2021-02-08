@@ -127,10 +127,10 @@ a, h1, p{
         }
     }
     #first-block-image-block{
-        width: 182px;
-        height: 365px;
-        margin: 25px 0 0 120px;
-        background-image: url(../dbfb15e1c537755aafd115dbf575cab5.jpg);
+        width: 153px;
+        /*height: 365px;*/
+        margin: 25px 0 25px 120px;
+        background-image: url(../Mask_Group.png);
         background-size: cover;
     }
     #second-block{
@@ -310,7 +310,9 @@ a, h1, p{
         font-size: 14px;
         line-height: 20px;
         letter-spacing: 0.05em;
-
+    }
+    #footer-inner>p{
+        margin: 0 60px;
     }
     #footer-feedback-text{
         text-align: end;
