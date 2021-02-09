@@ -10,7 +10,9 @@ a, h1, p{
     color: #fff;
     text-decoration: none;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 @media screen and (orientation: landscape) {
 
     #wrapper{
